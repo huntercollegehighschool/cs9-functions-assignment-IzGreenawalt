@@ -18,5 +18,9 @@ def factorial(number):
     product *= i
   return product
 
+perm=1
 def combination(n, r):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+ perm= factorial(n)//factorial(n-r)
+ return perm # delete the word pass when you start writing your code
+
+#done 

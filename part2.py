@@ -7,6 +7,9 @@ Define a function celsius that takes a single float parameter, the temperature i
 The formula for converting from fahrenheit to celsius:
 C = (F - 32) * 5/9
 """
-
+c=1
 def celsius(f):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+  c= (f-32) *5/9 
+  return c
+
+  #done 
